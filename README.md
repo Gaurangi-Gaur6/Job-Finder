@@ -1,32 +1,43 @@
 # Job Finder — React Web Application
 
-A responsive Job Finder web application that allows users to explore job opportunities, search and filter listings, save jobs, and track their job applications in one place.
+A responsive job search and application tracking platform built with React and Tailwind CSS. Search and filter job opportunities, save interesting listings, and manage application progress from a single dashboard.
 
-## Features
+## 🚀 Live Demo
 
-- **Job Listings:** Fetch job opportunities from an external API.
-- **Search & Filters:** Search jobs by keyword, location, and job type.
-- **Sorting:** Sort job listings based on job type.
-- **Save Jobs:** Bookmark jobs and access them later.
-- **Application Tracking:** Track applications and update their status.
-- **Application Dashboard:** View application statistics and progress.
+**[View Live Website](https://job-finder-qq9urepsq-gaurangi1.vercel.app)**
+
+## ✨ Features
+
+- **Job Listings:** Fetch job opportunities from the Arbeitnow Job Board API.
+- **Search & Filters:** Search jobs by keyword and location, and filter by job type.
+- **Sorting:** Sort job listings by job type.
+- **Save Jobs:** Bookmark interesting jobs and access them later.
+- **Application Tracking:** Track applied jobs and update their application status.
+- **Dashboard Statistics:** View application counts and progress.
 - **Application Notes:** Add and edit notes for individual applications.
-- **Persistent Storage:** Save jobs, applications, and notes using LocalStorage.
-- **Responsive Design:** Works on desktop, tablet, and mobile screens.
+- **Persistent Storage:** Preserve saved jobs, applications, and notes using browser LocalStorage.
+- **Responsive UI:** Designed for desktop, tablet, and mobile devices.
+- **Client-Side Routing:** Navigate between pages using React Router.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- React
-- JavaScript
-- Tailwind CSS
-- React Router
-- Axios
-- Lucide React
-- Arbeitnow Job Board API
-- Browser LocalStorage
-- Vite
+| Technology | Purpose |
+|---|---|
+| React | UI components and state management |
+| JavaScript | Application logic |
+| Tailwind CSS | Responsive styling |
+| React Router | Client-side navigation |
+| Axios | API requests |
+| Lucide React | Icons |
+| Arbeitnow Job Board API | Job listing data |
+| LocalStorage | Persistent browser storage |
+| Vite | Development server and build tool |
 
-## Getting Started
+## 📸 Screenshots
+
+_Add screenshots of the Home page, Saved Jobs page, and Applications dashboard here._
+
+## ⚙️ Getting Started
 
 ### Prerequisites
 
@@ -42,7 +53,7 @@ A responsive Job Finder web application that allows users to explore job opportu
    git clone https://github.com/Gaurangi-Gaur6/Job-Finder.git
    ```
 
-2. Navigate to the project folder:
+2. Navigate to the project directory:
 
    ```bash
    cd Job-Finder
@@ -62,32 +73,43 @@ A responsive Job Finder web application that allows users to explore job opportu
 
 5. Open the local URL displayed in your terminal.
 
-## API
+### Production Build
 
-Job listings are fetched from the Arbeitnow Job Board API:
+To create a production build, run:
 
-https://www.arbeitnow.com/api/job-board-api
+```bash
+npm run build
+```
 
-## Learning Outcomes
+## 🌐 API
 
-- Building reusable React components
-- Managing state and passing props
-- Implementing routing with React Router
-- Fetching API data using Axios
-- Filtering and sorting job listings
-- Persisting application data with LocalStorage
-- Creating a responsive UI with Tailwind CSS
+Job listings are fetched from the [Arbeitnow Job Board API](https://www.arbeitnow.com/api/job-board-api).
 
-## Future Improvements
+## 📚 Key Learning Outcomes
 
-- User authentication
-- Advanced job filters
-- Notifications for application follow-ups
-- Backend integration and database storage
+- Building reusable React components.
+- Managing state and passing props between components.
+- Implementing client-side routing.
+- Fetching and displaying external API data with Axios.
+- Implementing search, filtering, and sorting.
+- Persisting data using LocalStorage.
+- Designing responsive layouts with Tailwind CSS.
+- Deploying a Vite application to Vercel.
 
-## Author
+## 🔮 Future Improvements
+
+- User authentication and personalized accounts.
+- Advanced job filtering and search options.
+- Application follow-up reminders and notifications.
+- Backend integration and database storage.
+
+## 👩‍💻 Author
 
 **Gaurangi Gaur**
 
-- GitHub: https://github.com/Gaurangi-Gaur6
-- LinkedIn: https://www.linkedin.com/in/gaurangi-gaur/
+- GitHub: [Gaurangi-Gaur6](https://github.com/Gaurangi-Gaur6)
+- LinkedIn: [Gaurangi Gaur](https://www.linkedin.com/in/gaurangi-gaur/)
+
+---
+
+If you find this project useful, feel free to explore the repository and try the live demo.
