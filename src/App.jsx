@@ -111,10 +111,22 @@ function App() {
           />}
         />
 
-        <Route path="/jobs"
+        {/* <Route path="/jobs"
           element={<h1 className="p-8">
             Find Jobs
           </h1>}
+        /> */}
+
+        <Route
+          path="/jobs"
+          element={
+            <div className="min-h-screen bg-white p-8 text-black">
+              <h1 className="text-3xl font-bold">
+                Find Jobs
+              </h1>
+              <p>Jobs page is working!</p>
+            </div>
+          }
         />
 
         <Route path="/saved"
